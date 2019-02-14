@@ -28,7 +28,11 @@ nav {
   color: #0074d9;
 }
 
-a hover {
+a: hover {
   color: #e2e2e2;
   background-color: #0074d9;
+}
+
+nav li a {
+  text-decoration: none;
 }
