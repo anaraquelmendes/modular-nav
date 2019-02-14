@@ -1,11 +1,11 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
 
 html {
   box-sizing: border-box;
+  @-moz-viewport { width: device-width; scale: 1; }
+  @-ms-viewport { width: device-width; scale: 1; }
+  @-o-viewport { width: device-width; scale: 1; }
+  @-webkit-viewport { width: device-width; scale: 1; }
+  @viewport { width: device-width; scale: 1; }
 }
 
 *, *::before, *::after {
@@ -13,23 +13,27 @@ html {
 }
 
 html {
-
+  font-family: sans-serif;
 }
 
 h1 {
-  font-family: sans-serif;
+  text-align: left;
+  text-decoration: none;
 }
 
 body {
   background-color: #e2e2e2;
+  display: inline-block;
+  margin: 0;
 }
 
 nav {
   color: #0074d9;
+  text-align: center;
 }
 
-a: hover {
-  color: #e2e2e2;
+a:hover {
+  color: #fff;
   background-color: #0074d9;
 }
 
